@@ -1,0 +1,49 @@
+.wrapper{
+    height: 190px;
+    width: 100%;
+    margin-inline: auto;
+    max-width: 1536px;
+    margin-top: 5rem;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.item{
+    
+    position:absolute;
+    left: 110%;
+    animation: swipeleft 30s linear infinite;
+    animation-delay: -15s;
+    
+}
+@keyframes swipeleft {
+    to{
+        left: -400px;
+    }
+}
+
+.i1{
+    animation-delay: calc(30s / 6 * (6 - 1) );
+
+}
+.i2{
+    animation-delay: calc(30s / 6 * (6 - 2) );
+
+}
+.i3{
+    animation-delay: calc(30s / 6 * (6 - 3) );
+
+}
+.i4{
+    animation-delay: calc(30s / 6 * (6 - 4) );
+
+}
+.i5{
+    animation-delay: calc(30s / 6 * (6 - 5) );
+
+}
+.i6{
+    animation-delay: calc(30s / 6 * (6 - 6) );
+
+}
