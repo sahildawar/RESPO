@@ -1,6 +1,5 @@
-import Navbar from '@/components/Navbar/Navbar';
-import Footer from '@/components/Footer/Footer';
-import helpicon from '@/components/helpicon/helpicon';
+import Navbar from './components/Navbar/Navbar';
+import Footer from './components/Footer/Footer';
 import { Inter } from "next/font/google";
 import { Roboto } from "next/font/google";
 import { Oswald } from "next/font/google";
